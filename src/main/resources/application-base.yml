@@ -1,6 +1,7 @@
 server:
   port: 9999
-
+  servlet:
+    context-path: /demo
 spring:
   application:
     name: springboot-demo
@@ -11,4 +12,7 @@ spring:
     sql-dialect: h2
   main:
     allow-bean-definition-overriding: true
+
+# 启动可以看springboot启动的详细的log，用于排错使用
+# debug: true
 
